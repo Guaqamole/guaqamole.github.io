@@ -97,10 +97,10 @@ comments:
     repo_id: R_kgDOKZDI6g
     category: General
     category_id: DIC_kwDOKZDI6s4CZsZ-
-    mapping: "pathname" # optional, default to 'pathname'
-    input_position: top # optional, default to 'bottom'
-    lang: # optional, default to the value of `site.lang`
-    reactions_enabled: "1" # optional, default to the value of `1`
+    mapping: # optional, default to 'pathname'
+    input_position: # optional, default to 'bottom'
+    lang: ko # optional, default to the value of `site.lang`
+    reactions_enabled: 1 # optional, default to the value of `1`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
