@@ -1,4 +1,5 @@
 # The Site Configuration
+# 댓글 설정은 여기서!
 
 # Import the theme
 theme: jekyll-theme-chirpy
@@ -20,7 +21,7 @@ timezone: Asia/Seoul
 
 title: Avo's Tech Blog # the main title
 
-tagline: Avocado lover Guaqamole의 Data Engineering Blog입니다. # it will display as the sub-title
+tagline: Avocado lover Guaqamole's Data Engineering Blog. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Consistent Till The End.
@@ -92,10 +93,10 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
+    repo: guaqamole/guaqamole.github.io
+    repo_id: R_kgDOKZDI6g
+    category: General
+    category_id: DIC_kwDOKZDI6s4CZsZ-
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
