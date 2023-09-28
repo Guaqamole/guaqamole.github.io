@@ -1,8 +1,8 @@
 ---
 title: Getting Started
-author: cotes
+author: guaqamole
 date: 2019-08-09 20:55:00 +0800
-categories: [Blogging, Tutorial]
+categories: [Zlogging, Tutorial]
 tags: [getting started]
 pin: true
 img_path: '/posts/20180809'
