@@ -1,6 +1,6 @@
 ---
 title: SQL 파싱과 최적화
-author: avokey
+author: guaqamole
 date: 2023-04-01 18:32:00
 categories: [DB, Tuning]
 tags: [Tuning, Optimization, DBMS, SQL]

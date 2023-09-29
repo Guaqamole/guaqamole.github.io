@@ -1,6 +1,6 @@
 ---
 title: Spark Multinode Setup
-author: avokey
+author: guaqamole
 date: 2022-11-11 18:32:00 -0500
 categories: [Data, Spark]
 tags: [Distributed Computing, Spark, Hadoop, Scala]

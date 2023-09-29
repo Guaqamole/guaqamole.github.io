@@ -16,6 +16,7 @@ This post is to show Markdown syntax rendering on [**Chirpy**](https://github.co
 
 
 ![light mode only](/common/operatingsystem.jpg){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
+![dark mode only](/common/operatingsystem.jpg){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
 
 ## Headings
 

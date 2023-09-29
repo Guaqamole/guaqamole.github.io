@@ -1,6 +1,6 @@
 ---
 title: MongoDB의 Cursor and Array
-author: avokey
+author: guaqamole
 date: 2022-11-10 18:32:00 -0500
 categories: [DB, MongoDB]
 tags: [NoSQL, Document Database, JSON]

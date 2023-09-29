@@ -1,6 +1,6 @@
 ---
 title: 새로운 기술을 공부 할 때
-author: Guaqamole
+author: guaqamole
 date: 2021-01-02 00:00:00 +0000
 categories: [Zlog, Blogging]
 tags: [Blogging]

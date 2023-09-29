@@ -1,6 +1,6 @@
 ---
 title: 자연키(Natural key) vs 대체키(Surrogate Key)
-author: avokey
+author: guaqamole
 date: 2023-02-03 18:32:00 -0500
 categories: [DB, Design]
 tags: [DBMS, Design, Schema, TBE]

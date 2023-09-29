@@ -1,6 +1,6 @@
 ---
 title: Spark를 시작하기 앞서
-author: avokey
+author: guaqamole
 date: 2023-03-14 18:32:00 -0500
 categories: [Data, Spark]
 tags: [Data Engineering, Spark, UC Berkly, Distributed Computing, Hadoop]

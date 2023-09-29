@@ -1,6 +1,6 @@
 ---
 title: Spark Wordcount vs Scala Wordcount
-author: avokey
+author: guaqamole
 date: 2022-11-14 18:32:00 -0500
 categories: [Data, Spark]
 tags: [Spark, Scala, RDD, Functional Programming, Spark Wordcount, Practical]

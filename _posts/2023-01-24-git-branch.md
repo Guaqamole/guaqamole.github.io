@@ -1,6 +1,6 @@
 ---
 title: Git Branch
-author: avokey
+author: guaqamole
 date: 2023-01-24 18:32:00 -0500
 categories: [Dev, Git]
 tags: [Git, Github, Version Control, TBE]

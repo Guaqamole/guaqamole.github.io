@@ -1,6 +1,6 @@
 ---
 title: 데이터 저장 구조 및 IO 메커니즘
-author: avokey
+author: guaqamole
 date: 2023-04-10 09:32:00
 categories: [DB, Tuning]
 tags: [Tuning, Optimization, DBMS, SQL]

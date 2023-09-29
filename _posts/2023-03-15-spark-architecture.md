@@ -1,6 +1,6 @@
 ---
 title: Spark의 아키텍처
-author: avokey
+author: guaqamole
 date: 2023-03-15 18:32:00 -0500
 categories: [Data, Spark]
 tags: [Data Engineering, Spark, Distributed Computing]

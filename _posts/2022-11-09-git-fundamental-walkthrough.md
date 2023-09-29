@@ -1,6 +1,6 @@
 ---
 title: Git Fundamentals
-author: avokey
+author: guaqamole
 date: 2022-11-09 18:32:00 -0500
 categories: [Dev, Git]
 tags: [Git, Github, Version Control]

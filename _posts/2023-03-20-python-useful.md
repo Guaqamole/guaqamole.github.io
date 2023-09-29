@@ -1,6 +1,6 @@
 ---
 title: 유용한 Python Function 모음
-author: avokey
+author: guaqamole
 date: 2023-03-20 18:32:00 -0500
 categories: [Dev, Python]
 tags: [Python, Pythonic, Programming, Practical]

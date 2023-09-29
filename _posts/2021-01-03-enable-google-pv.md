@@ -1,6 +1,6 @@
 ---
 title: Enable Google Page Views
-author: sille_bille
+author: guaqamole
 date: 2021-02-03 18:32:00 -0500
 categories: [Zlog, Blogging]
 tags: [google analytics, Blogging]

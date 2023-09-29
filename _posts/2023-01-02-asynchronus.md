@@ -1,6 +1,6 @@
 ---
 title: 웹 애플리케이션에서 비동기처리는 왜 중요할까?
-author: avokey
+author: guaqamole
 date: 2023-01-02 00:00:00 -0500
 categories: [Todo]
 tags: [Javascript, Scripting Language, Interview, Ajax, Asynchronous, TBE]

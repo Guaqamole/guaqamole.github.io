@@ -1,6 +1,6 @@
 ---
 title: Post Naming Rules
-author: avokey
+author: guaqamole
 date: 2021-01-03 00:00:00 +0000
 categories: [Zlog, Blogging]
 tags: [Blogging]

@@ -1,6 +1,6 @@
 ---
 title: String & Files & Iteration in Groovy
-author: avokey
+author: guaqamole
 date: 2022-11-14 18:32:00 -0500
 categories: [Infra, Scripting Language]
 tags: [Groovy, Jenkins, Scripting Language, Syntax]

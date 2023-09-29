@@ -1,6 +1,6 @@
 ---
 title: Variable and Functions in Javascript
-author: avokey
+author: guaqamole
 date: 2022-11-19 18:32:00 -0500
 categories: [Dev, Javascript]
 tags: [Javascript, Syntax, Programming, Scripting Language]

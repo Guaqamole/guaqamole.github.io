@@ -1,6 +1,6 @@
 ---
 title: Buffers & Cache 그리고 가상 메모리
-author: avokey
+author: guaqamole
 date: 2023-01-09 18:32:00 -0500
 categories: [CS, OS]
 tags: [Operating System, Kernel, Thread, TBE]

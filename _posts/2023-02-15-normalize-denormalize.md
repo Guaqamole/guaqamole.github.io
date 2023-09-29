@@ -1,6 +1,6 @@
 ---
 title: 정규화냐 비정규화냐 그것이 문제로다
-author: avokey
+author: guaqamole
 date: 2023-02-15 18:32:00 -0500
 categories: [Data, DW]
 tags: [DBMS, Design, Kimball, Dimensional Modeling]

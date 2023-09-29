@@ -1,6 +1,6 @@
 ---
 title: Scala Functions
-author: avokey
+author: guaqamole
 date: 2022-11-15 18:32:00 -0500
 categories: [Data, Spark]
 tags: [Programming, Scala, Functional Programming, Practical]
