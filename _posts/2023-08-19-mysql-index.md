@@ -6,7 +6,7 @@ categories: [DB, MySQL]
 tags: [CS, Database, RDBMS, Indexing]
 ---
 
-![default_post_image](/common/mysql.jpeg){: .light .w-75 .shadow .rounded-10 width="972" height="589" }
+![default_post_image](/common/mysql.jpeg){: width="972" height="589" }
 _Fig 1. MySQL_
 
 <br>
@@ -29,7 +29,8 @@ _Fig 1. MySQL_
 
 MySQL의 아키텍처를 설명한다면 크게 네가지 레이어로 나눠 설명할수 있을것같습니다.
 
-![](/230819/1.png){: .light .w-75 .shadow .rounded-10 width="600" height="500" }
+![light mode only](/230819/1.png){: .light .w-75 .shadow .rounded-50 w='800' h='600' }
+![dark mode only](/230819/1.png){: .dark .w-75 .shadow .rounded-50 w='800' h='600' }
 
 ### **Connection Client**
 
@@ -103,7 +104,8 @@ MySQL 서버는 멀티스레드 프로그램입니다. 다시말해, 서버로 �
 
 ### **스레드 풀의 원리**
 
-![](/230819/11.png){: .light .w-75 .shadow .rounded-10 width="600" height="500" }
+![light mode only](/230819/11.png){: .light .w-75 .shadow .rounded-50 w='800' h='600' }
+![dark mode only](/230819/11.png){: .dark .w-75 .shadow .rounded-50 w='800' h='600' }
 
 서버는 요청이 들어올 때마다 새 스레드를 생성하는 대신, 스레드 풀에게 작업을 위임합니다.
 
@@ -137,7 +139,8 @@ MySQL의 메모리 구조는 크게 글로벌 메모리 영역과 로컬(세션)
 
 ## **MySQL 쿼리 실행 과정**
 
-![](/230819/2.png){: .light .w-75 .shadow .rounded-10 width="600" height="500" }
+![light mode only](/230819/2.png){: .light .w-75 .shadow .rounded-50 w='800' h='600' }
+![dark mode only](/230819/2.png){: .dark .w-75 .shadow .rounded-50 w='800' h='600' }
 
 ### 1. 쿼리 캐시
 
@@ -212,7 +215,10 @@ MySQL 5.x 버전에선 스토리지 엔진 뿐만 아니라, 검색어 파서, �
 
 ### InnoDB
 
-![](/230819/4.jpg){: .light .w-75 .shadow .rounded-10 width="600" height="500" }
+![light mode only](/230819/4.png){: .light .w-75 .shadow .rounded-50 w='800' h='600' }
+![dark mode only](/230819/4.png){: .dark .w-75 .shadow .rounded-50 w='800' h='600' }
+
+
 
 프라이머리 키에 의한 클러스터링을 제공하고, 크게 메모리 영역과 디스크(스토리지) 영역으로 나눌 수 있습니다.
 
@@ -237,7 +243,8 @@ MySQL 5.x 버전에선 스토리지 엔진 뿐만 아니라, 검색어 파서, �
 
 #### 트랜잭션 MVCC
 
-![](/230819/5.png){: .light .w-75 .shadow .rounded-10 width="600" height="500" }
+![light mode only](/230819/5.png){: .light .w-75 .shadow .rounded-50 w='800' h='600' }
+![dark mode only](/230819/5.png){: .dark .w-75 .shadow .rounded-50 w='800' h='600' }
 
 <hr style="height:20px; visibility:hidden;" />
 
@@ -272,7 +279,8 @@ Buffer Pool
 
 트랜잭션 A를 처리하는 중 에러가 발생해 롤백해 버린다면, 트랜잭션 B는 올바르지 않은 데이터를 가져가는 것입니다.
 
-![](/230819/7.png){: .light .w-75 .shadow .rounded-10 width="600" height="500" }
+![light mode only](/230819/7.png){: .light .w-75 .shadow .rounded-50 w='800' h='600' }
+![dark mode only](/230819/7.png){: .dark .w-75 .shadow .rounded-50 w='800' h='600' }
 
 위와 같이, 남자가 AGE를 30으로 수정하다 에러가 발생해서 롤백했습니다.
 
@@ -296,7 +304,8 @@ DIRTY READ를 해결하기 위해, 격리 수준을 커밋된 데이터만 읽�
 
 이렇게 한 트랜잭션 내에서 동일한 조회 쿼리를 사용했을 때, 같은 결과를 보장하지 않는 NON-REPEATABLE READ 문제가 발생합니다.
 
-![](/230819/8.png){: .light .w-75 .shadow .rounded-10 width="600" height="500" }
+![light mode only](/230819/8.png){: .light .w-75 .shadow .rounded-50 w='800' h='600' }
+![dark mode only](/230819/8.png){: .dark .w-75 .shadow .rounded-50 w='800' h='600' }
 
 위 그림과 같이, 여자는 한 트랜잭션 내에서 동일한 쿼리를 사용했으나 다른 결과를 얻는 문제가 발생합니다.
 
@@ -316,7 +325,8 @@ DIRTY READ를 해결하기 위해, 격리 수준을 커밋된 데이터만 읽�
 
 따라서, 실제 테이블이 변경되어도 기존과 동일한 결과를 얻을 수 있는 것입니다.
 
-![](/230819/9.png){: .light .w-75 .shadow .rounded-10 width="600" height="500" }
+![light mode only](/230819/9.png){: .light .w-75 .shadow .rounded-50 w='800' h='600' }
+![dark mode only](/230819/9.png){: .dark .w-75 .shadow .rounded-50 w='800' h='600' }
 
 위는 REPEATABLE READ 단계에서 NON_REPEATABLE READ를 방지하는 것을 나타낸 그림입니다.
 
@@ -344,7 +354,8 @@ SERIALIZABLE은 제일 높은 격리 수준입니다.
 
 ### MyISAM
 
-![](/230819/10.png){: .light .w-75 .shadow .rounded-10 width="600" height="500" }
+![light mode only](/230819/10.png){: .light .w-75 .shadow .rounded-50 w='800' h='600' }
+![dark mode only](/230819/10.png){: .dark .w-75 .shadow .rounded-50 w='800' h='600' }
 
 **`MyISAM`**은 **전체 문장 검색 능력, 고-성능 스토리지 및 복구 기능을 제공**합니다. 기본적으로 **비-트랜젝션-세이프(non-transactional-safe) 트랜잭션**이라고 하는데, 풀텍스트 인덱스를 지원해서  Read Only 기능이 많은 서비스일 수록 `MyISAM`이 효율적이라고 합니다. 하지만 InnoDB 처럼 **`row level locking`**을 지원하지않아 **`SELECT` `INSERT` `UPDATE` `DELETE`**시 **해당 Table 전체에 Locking**이 걸립니다.
 
