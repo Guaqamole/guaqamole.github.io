@@ -109,7 +109,7 @@ debug1: Exit status 1
 만약 url이 `https` url로 설정되어 있다면, 인증시 `username`과 `password`를 요구합니다. `ssh url`로 바꿉니다.
 
 ~~~bash
-git remote set-url git@github.com:avoholo/avoholo.github.io.git
+git remote set-url origin git@github.com:avoholo/avoholo.github.io.git
 ~~~
 
 <br>
