@@ -1,7 +1,7 @@
 ---
 title: Git Fundamentals
 author: guaqamole
-date: 2022-11-09 18:32:00 -0500
+date: 2022-11-09 18:32:00 +0900
 categories: [Dev, Git]
 tags: [Git, Github, Version Control]
 image:
