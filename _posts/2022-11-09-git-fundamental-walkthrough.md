@@ -257,5 +257,3 @@ git config --global --add safe.directory /directory
 ~~~bash
 git config --global --add safe.directory '%(prefix)///172.*.*.*/Avoholo/Workspace/JeKyll/avoholo.github.io/avoholo_blog'
 ~~~
-
-<br>
