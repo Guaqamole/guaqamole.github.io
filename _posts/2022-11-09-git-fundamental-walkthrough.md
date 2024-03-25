@@ -58,7 +58,7 @@ HEAD는 현재 과거 커밋을 바라보고 있으므로, `Add add_to_cart.py` 
 
 ### Init
 
-`git init`는 새로운 Git 저장소(repository)를 생성할 때 사용하는 Git 명령어 다.
+`git init`는 새로운 Git 저장소(repository)를 생성할 때 사용하는 Git 명령어다.
 
 ~~~bash
 git init
