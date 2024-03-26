@@ -1,13 +1,12 @@
 ---
 title: 데이터 저장 구조 및 IO 메커니즘
 author: guaqamole
-date: 2023-04-10 09:32:00
+date: 2022-12-10 09:32:00
 categories: [DB, Tuning]
 tags: [Tuning, Optimization, DBMS, SQL]
+image:
+  path: /common/oracle.png
 ---
-<br>![Desktop View](/common/dbms.jpg){: width="400" height="300"}
-_Fig 1. DBMS_
-
 # SQL은 왜 느릴까?
 
 일단 단도직입적으로 말하면 **디스크 I/O 때문입니다.** 디스크 I/O가 발생한다면 어떤 일들이 벌어질까요? 우선 OS 또는 I/O 서브 시스템이 I/O를 처리하는 동안 프로세스는 잠을 자게되고, **정확히 표현하자면 대기 상태에 빠집니다.** 

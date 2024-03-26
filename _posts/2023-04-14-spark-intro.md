@@ -1,18 +1,22 @@
 ---
 title: Spark를 시작하기 앞서
 author: guaqamole
-date: 2023-03-14 18:32:00 -0500
+date: 2023-04-14 18:32:00 +0900
 categories: [Data, Spark]
 tags: [Data Engineering, Spark, UC Berkly, Distributed Computing, Hadoop]
+image:
+  path: /common/spark.png
 ---
-
-![default_post_image](/common/spark.png){: width="400" height="300" }
 
 그동안 정말 하고싶었지만 시간이 안돼 미루고 미뤘던 스파크 스터디를 정식으로 시작하려고 합니다! 
 
 스터디의 목표는 확실하게 & 꾸준하게 스파크를 공부하는것인데, 놓치고 넘어가는 개념이 없도록 하나하나 짚고 넘어갈 예정입니다.
 
 <br>
+
+
+
+****
 
 # 스파크의 시작
 

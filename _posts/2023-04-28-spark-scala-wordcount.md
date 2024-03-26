@@ -1,18 +1,18 @@
 ---
 title: Spark Wordcount vs Scala Wordcount
 author: guaqamole
-date: 2022-11-14 18:32:00 -0500
+date: 2022-04-28 18:32:00 +0900
 categories: [Data, Spark]
 tags: [Spark, Scala, RDD, Functional Programming, Spark Wordcount, Practical]
+image:
+  path: /common/spark.png
 ---
+
+이번 포스트에선 `Scala`의 **Array API**를 통해 WordCount를 수행하고, `Spark`의 **RDD API**로 동일하게 WordCount를 수행 했을 때 **어떤 차이점이 있는지 알아볼 예정**이다.
 
 <br>
 
-![Desktop View](/221111spark/default_post_image.png){: width="972" height="589" }
-_Fig 1. Apache Spark._
-
-
-이번 포스트에선 `Scala`의 **Array API**를 통해 WordCount를 수행하고, `Spark`의 **RDD API**로 동일하게 WordCount를 수행 했을 때 **어떤 차이점이 있는지 알아볼 예정**이다.
+****
 
 
 ### Scala WordCount

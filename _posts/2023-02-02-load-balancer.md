@@ -1,15 +1,12 @@
 ---
 title: 로드 밸런서(Load Balancer)
 author: guaqamole
-date: 2023-07-02 18:32:00 -0500
+date: 2023-02-02 18:32:00 +0900
 categories: [CS, Network]
 tags: [CS, Network, LoadBalancer, TCPIP]
+image:
+  path: /230702/2.png
 ---
-
-![default_post_image](/230702/1.png){: width="972" height="589" }
-_Fig 1. OSI Model_
-
-<br>
 
 유저들에게 제공하는 서비스가 초기 단계라면 적은 수의 클라이언트로 인해 서버 한 대로 요청에 응답하는 것이 가능 할것입니다. 하지만 서비스의 규모가 확장되고, 클라이언트의 수가 늘어나게 되면 기존 서버의 리소스 만으로는 정상적인 서비스를 유지하기가 어렵겠죠. 
 
@@ -26,6 +23,8 @@ _Fig 1. OSI Model_
 서버를 추가로 증설하는 경우, 여러 대의 서버로 트래픽을 균등하게 분산해주는 중간다리 역할이 필요하게 됩니다. 이처럼 클라이언트와 서버 사이에서 트래픽, 즉 **서버의 부하(Load)를 분산**시켜주는 기술을 ***로드밸런싱*** 이라고합니다.
 
 <br>
+
+****
 
 
 ## **로드 밸런서란**
@@ -186,7 +185,7 @@ _Fig 2. How Load Balancer Works_
 <br>
 
 ## Links
-- <https://m.post.naver.com/viewer/postView.naver?volumeNo=27046347&memberNo=2521903>
+<https://m.post.naver.com/viewer/postView.naver?volumeNo=27046347&memberNo=2521903>
 
 <https://www.ncloud.com/product/networking/loadBalancer>
 

@@ -1,19 +1,18 @@
 ---
-title: MySQL 아키텍처와 Indexing 전략
+title: MySQL 아키텍처
 author: guaqamole
-date: 2023-08-19 18:32:00 -0500
+date: 2023-01-19 18:32:00 +0900
 categories: [DB, MySQL]
 tags: [CS, Database, RDBMS, Indexing]
+image:
+  path: /common/mysql.jpeg
 ---
 
-![default_post_image](/common/mysql.jpeg){: width="972" height="589" }
-_Fig 1. MySQL_
+이번 포스트에선 그동안 확실하게 짚고 넘어가고 싶었지만 너무 광범위한 주제여서 차마 시작하지 못했던 MySQL에 관한 글을 써보려고합니다. 이번 포스트는 인트로 느낌으로 간단하게 아키텍처 위주로 소개해보겠습니다.
 
 <br>
 
-이번 포스트에선 그동안 확실하게 짚고 넘어가고 싶었지만 너무 광범위한 주제여서 차마 시작하지 못했던 MySQL에 관한 글을 써보려고합니다. MySQL 시리즈 별로 작성할 목적이라 이번 포스트는 인트로 느낌으로 간단하게 아키텍처와 인덱싱 전략 위주로 소개해보겠습니다.
-
-<br>
+****
 
 **간단하게 짚고 넘어가는 MySQL의 역사**
 

@@ -1,15 +1,20 @@
 ---
 title: 정규화냐 비정규화냐 그것이 문제로다
 author: guaqamole
-date: 2023-02-15 18:32:00 -0500
+date: 2023-03-15 18:32:00 +0900
 categories: [Data, DW]
 tags: [DBMS, Design, Kimball, Dimensional Modeling]
+image:
+  path: /common/books/data_warehouse_toolkit.jpeg
 ---
 
-![default_post_image](/common/books/data_warehouse_toolkit.jpeg){: width="400" height="300" }
+Data Engineer는 B2B 기업에서 성장하기 힘들다는 판단을 하여 자신만의 서비스를 직접 운영하는 e-commerce 기업으로 이직했다. 오자마자 엄청난 Role을 부여받아 조금 긴장되고 떨리지만.. 처음으로 내 성과를 보여줄 수 있는 기회이기도 하니 열심히 할거다. 
+
+회사에서 직접 작성한 나의 `Confluence` 글을 그대로 가져와봤다. 앞으로 전사적으로 사용할 DW를 구축하기전에 팀내 엔지니어 분들께 다차원 모델링 (Dimension Modeling) 소개하고자 글을 작성해보았다.  
 
 <br>
-\**회사에서 직접 작성한 저의 `Confluence` 글을 그대로 가져온 포스트입니다.*
+
+****
 
 DW를 모델링 하다보면 Star Schema와 Snowflake Schema중 어느 모델이 비즈니스에 더 적합할지 고민을하게 됩니다. 이는 데이터를  “*정규화 할것인지, 비정규화 할건지* ” 와 같은 질문입니다. 
 

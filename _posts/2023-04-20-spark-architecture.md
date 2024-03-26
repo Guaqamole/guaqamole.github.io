@@ -1,14 +1,12 @@
 ---
 title: Spark의 아키텍처
 author: guaqamole
-date: 2023-03-15 18:32:00 -0500
+date: 2023-04-20 18:32:00 +0900
 categories: [Data, Spark]
 tags: [Data Engineering, Spark, Distributed Computing]
+image:
+  path: /common/spark.png
 ---
-
-![default_post_image](/common/spark.png){: width="400" height="300" }
-
-
 
 ## 스파크 구성
 
