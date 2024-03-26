@@ -5,7 +5,7 @@ date: 2023-02-02 18:32:00 +0900
 categories: [CS, Network]
 tags: [CS, Network, LoadBalancer, TCPIP]
 image:
-  path: /230702/2.png
+  path: /common/lb.png
 ---
 
 유저들에게 제공하는 서비스가 초기 단계라면 적은 수의 클라이언트로 인해 서버 한 대로 요청에 응답하는 것이 가능 할것입니다. 하지만 서비스의 규모가 확장되고, 클라이언트의 수가 늘어나게 되면 기존 서버의 리소스 만으로는 정상적인 서비스를 유지하기가 어렵겠죠. 
