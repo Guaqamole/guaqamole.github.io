@@ -5,7 +5,7 @@ date: 2022-09-09 18:32:00 +0900
 categories: [CS, OS]
 tags: [Operating System, Kernel, Thread, TBE]
 image:
-  path: /common/linux.png
+  path: /common/linux.jpeg
 ---
 
 매번 서버에서 Running 중인 Application이 OOM 에러가 날때마다 버퍼와 캐시가 얼마나 메모리를 사용하고 있는지 `free -m` 으로 확인했었는데, 처음에는 버퍼와 캐시가 메모리를 너무 많이 사용하고 있어서 주기적으로 비워줘야한다고 생각했다.
