@@ -5,7 +5,7 @@ date: 2023-01-19 18:32:00 +0900
 categories: [DB, MySQL]
 tags: [CS, Database, RDBMS, Indexing]
 image:
-  path: /common/mysql.jpeg
+  path: /common/mysql.png
 ---
 
 이번 포스트에선 그동안 확실하게 짚고 넘어가고 싶었지만 너무 광범위한 주제여서 차마 시작하지 못했던 MySQL에 관한 글을 써보려고합니다. 이번 포스트는 인트로 느낌으로 간단하게 아키텍처 위주로 소개해보겠습니다.
