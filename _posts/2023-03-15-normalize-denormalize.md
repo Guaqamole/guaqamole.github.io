@@ -5,7 +5,7 @@ date: 2023-03-15 18:32:00 +0900
 categories: [Data, DW]
 tags: [DBMS, Design, Kimball, Dimensional Modeling]
 image:
-  path: /common/books/datawarehousetoolkit.png
+  path: /common/dw.png
 ---
 
 Data Engineer는 B2B 기업에서 성장하기 힘들다는 판단을 하여 자신만의 서비스를 직접 운영하는 e-commerce 기업으로 이직했다. 오자마자 엄청난 Role을 부여받아 조금 긴장되고 떨리지만.. 처음으로 내 성과를 보여줄 수 있는 기회이기도 하니 열심히 할거다. 
