@@ -7,11 +7,11 @@ tags: [Distributed Computing, Spark, Hadoop, Scala]
 image:
   path: /common/spark.png
 ---
-이번 포스트에선 가이드를 보며 따라 할 수 있는 **Walk Through Template**을 작성 할 예정이다. 
+이번 포스트에선 가이드를 보며 따라 할 수 있는 **Spark Setup Guide** 를 작성 할 예정이다. 
 
 이전에 FastAPI를 사용해보며 작성 해놓은 가이드가 있는데, 설치 방법이나 어떤 Library를 Import 했는지 매번 까먹어서 Template 작성겸 여기다 정리하려고 한다.
 
-Walk Through Template 사용시 해당 기술의 개념을 정리 하기보단, **실습 내역을 기록하는 목적**으로 사용한다.
+가이드 작성시 해당 기술의 개념을 정리 하기보단, **실습 내역을 기록하는 목적**으로 사용한다.
 
 따라서 개념 정리는 따로 **Concept Note**를 통해 일괄적으로 관리한다.
 
